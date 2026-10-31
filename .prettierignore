@@ -12,3 +12,6 @@ build/
 .env
 data/
 *.md
+packages/py/README.md
+packages/js/src/generated/
+fixtures/

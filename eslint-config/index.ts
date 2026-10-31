@@ -1,9 +1,9 @@
-import { baseConfig } from "./baseConfig.ts";
+import { baseConfig } from './baseConfig.ts';
 import {
   isomorphicLanguageOptionsConfigs,
   nodeLanguageOptionsConfigs,
-} from "./languagesOptionsConfigs.ts";
-import { tsConfigs } from "./tsConfig.ts";
+} from './languagesOptionsConfigs.ts';
+import { tsConfigs } from './tsConfig.ts';
 
 /** facade for exporting eslint config  */
 export const eslintConfig = {

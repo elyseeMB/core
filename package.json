@@ -17,8 +17,8 @@
     "test:py": "cd packages/py && python -m pytest -q",
     "check": "npm run validate && npm run sync -- --check && npm run typecheck && npm run test:js && npm run test:py",
     "version:set": "node scripts/set-version.mjs",
-    "lint": "eslint .",
-    "format": "prettier . --write"
+    "lint": "eslint . && ruff check packages/py",
+    "format": "prettier --write . && ruff format packages/py"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
